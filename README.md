@@ -12,7 +12,7 @@
     
     
     
-####在DepthPageTransformer类中修改切换动画. 第一页的position变化就是( 0, -1]，第二页的position变化就是[ 1 , 0 ].
+#### 在DepthPageTransformer类中修改切换动画. 第一页的position变化就是( 0, -1]，第二页的position变化就是[ 1 , 0 ].
     public class DepthPageTransformer implements ViewPager.PageTransformer {
 
         public void transformPage(View view, float position) {
